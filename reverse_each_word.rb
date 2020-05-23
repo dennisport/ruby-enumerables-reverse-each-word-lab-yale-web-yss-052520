@@ -6,5 +6,8 @@
   end
   
   def reverse_each_word(setence)
-    
+    words = sentence.split
+    reverse_string = ""
+    words.collect do |word|
+      
  
