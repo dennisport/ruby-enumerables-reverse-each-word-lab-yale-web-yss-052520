@@ -13,6 +13,6 @@ end
     words.collect do |word|
       reverse_string += "#{word.reverse}"
     end
-    reverse_string
+    reverse_string.chop
   end
  
