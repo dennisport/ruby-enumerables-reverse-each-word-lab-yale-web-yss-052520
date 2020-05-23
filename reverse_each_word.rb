@@ -11,7 +11,7 @@ end
     words = string.split
     reverse_string = ""
     words.collect do |word|
-      reverse_string += "#{word.reverse} "
+      reverse_string << "#{word.reverse} "
     end
     reverse_string.chop
   end
