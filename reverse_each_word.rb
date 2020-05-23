@@ -4,7 +4,7 @@
     words.each do |word|
       reverse_string += "#{word.reverse} "
   end
-  reverse_string.chop
+  reverse_string
 end
   
   def reverse_each_word(string)
