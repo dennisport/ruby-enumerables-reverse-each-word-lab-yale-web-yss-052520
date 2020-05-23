@@ -9,5 +9,6 @@
     words = sentence.split
     reverse_string = ""
     words.collect do |word|
-      
+      reverse_string << "#{word.reverse}"
+    end
  
